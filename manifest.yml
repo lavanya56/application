@@ -3,3 +3,6 @@ applications:
 - name: Bee_app
   memory: 256M #The maximum memory to allocate to each application instance
   instances: 1 #The number of instances of the application to start
+  disk_quota: 1024M
+  domain: cfapps.io
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git

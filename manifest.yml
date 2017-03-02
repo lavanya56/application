@@ -3,5 +3,5 @@ applications:
 - name: Bee_app
   memory: 256M #The maximum memory to allocate to each application instance
   instances: 1 #The number of instances of the application to start
-  path: /application.war
+  path: Application.war
   buildpack: https://github.com/cloudfoundry/java-buildpack.git

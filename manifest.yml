@@ -1,6 +1,6 @@
 ---
 applications:
-- name: Bee_app
+- name: MSS_app
   memory: 256M #The maximum memory to allocate to each application instance
   instances: 2 #The number of instances of the application to start
   path: Application.war

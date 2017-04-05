@@ -5,3 +5,6 @@ applications:
   instances: 2 #The number of instances of the application to start
   path: Application.war
   buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  services:
+   - newrelic-instance
+  

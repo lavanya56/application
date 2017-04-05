@@ -7,4 +7,6 @@ applications:
   buildpack: https://github.com/cloudfoundry/java-buildpack.git
   services:
    - newrelic-instance
-  
+  env:
+    License Key: be67cd9c99852e79b62bc674bbfd831a287e4ce3
+    

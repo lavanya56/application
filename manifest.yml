@@ -3,7 +3,7 @@ applications:
 - name: MSS_MIL_app
   memory: 2GB #The maximum memory to allocate to each application instance
   instances: 1 #The number of instances of the application to start
-  path: index.jsp
+  path: Application.war
   buildpack: https://github.com/cloudfoundry/java-buildpack.git
   services:
    - newrelic-instance

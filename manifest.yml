@@ -3,7 +3,7 @@ applications:
 - name: MSS_MIL_MSS
   memory: 2GB #The maximum memory to allocate to each application instance
   instances: 1 #The number of instances of the application to start
-  path: MIL_App.war
+  path: MIL_APP.war
   buildpack: https://github.com/cloudfoundry/java-buildpack.git
   
     
